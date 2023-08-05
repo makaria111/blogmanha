@@ -1,0 +1,122 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(211, 232, 255);
+}
+.cabeçalho{
+    display: flex;
+    background-color: #98CBFA;
+  
+}
+#img{
+    height: 110px;
+    width: 350px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#menu{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100px;
+    width: 100px;
+    margin-top: 15px;
+}
+.início{
+    display: flex;
+    background-color: rgb(142, 188, 247);
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: rgb(255, 255, 255);
+}
+.pesquisar{
+    position: relative;
+    border-radius: 20px;
+  
+}
+ 
+.pesquisar input{
+    width: 200px;
+    padding: 10px;
+    border: solid rgb(177, 214, 255) 5px;
+    border-radius: 20px;
+}
+main a{
+    color: black;
+    font-size: 17px ;
+justify-content: space-between;
+   
+}
+ main{
+    
+    
+    display: flex;
+    background-color: rgb(177, 214, 255);
+    justify-content: center;
+    align-items: center;
+    gap: 900px;
+ }
+.log{
+    color: white;
+    text-decoration: dotted;
+    font-size: 20px;
+}
+.frente{
+    box-shadow: 0px, 2px, 7px rgb(132, 201, 250);
+    padding: 0px;
+    margin-left: 0px;
+    margin: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 30px;
+
+}
+
+#botao{
+   color: rgb(91, 168, 250);
+   background-color: rgb(211, 232, 255);
+   border-color: rgb(211, 232, 255);
+}
+.rodape{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+#ctt{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-left: 43%;
+    margin-top: 2%;
+    font-size: 20px;
+  
+}
+footer img{
+    width: 26px;
+    height: 5vh;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+footer{
+    background-color: #191970;
+    margin-top: 5%;
+}
+.imgs{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

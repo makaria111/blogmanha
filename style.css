@@ -1,0 +1,49 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: #E1F1FF;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+header{
+    background-color: #98CBFA;
+}
+header img{
+    width: 31vw;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px
+}
+
+.perfil_1{
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+input, button{
+    background-color: white;
+    
+    border-radius: 4px;
+
+}
+::placeholder{
+    color: black;
+    padding: 1rem;
+}
+.cadastre{
+    font-size: 50px;
+}
